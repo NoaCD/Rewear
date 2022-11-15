@@ -1,0 +1,11 @@
+.thumb {
+    width: 5em;
+}
+
+.thumb img {
+    width: 5em;
+}
+
+.fill {
+    object-fit: cover !important;
+}

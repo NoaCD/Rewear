@@ -1,0 +1,15 @@
+/*Filtros movil*/
+@media (max-width:992px) {
+    .menu__side {
+    width: 200px;
+    height: 100%;
+    background: #fbfcfc;
+    position: fixed;
+    z-index: 1400;
+    top: 0;
+    left: 0;
+    }
+}
+
+
+/*end Filtros movil*/

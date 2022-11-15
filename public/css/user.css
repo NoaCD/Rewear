@@ -1,0 +1,51 @@
+.user .card {
+    padding: 0 0 0 0 !important;
+}
+#ordenes button,
+#cuenta button {
+    background: #fff;
+    border: none;
+    padding: 1em 0 1em 0;
+}
+#ordenes button:hover,
+#cuenta button:hover {
+    background: #003057;
+    transition: .5s ease;
+    color: #fff;
+}
+#ordenes button:active,
+#cuenta button:active{
+    background: #003057 !important;
+    transition: .5s ease;
+    color: #fff;
+    border: none;
+}
+
+#ordenes button {
+    border-radius: 10px 10px 0 0;
+}
+#cuenta button {
+    border-radius: 0 0 10px 10px;
+}
+
+#ordenes button.active,
+#cuenta button.active{
+    background: #003057;
+
+}
+
+.control-but button{
+    background: none;
+    border: none;
+}
+
+@media (max-width:900px) {
+    .info-1 {
+        order: 2;
+        padding-bottom: 1em;
+    }
+    .info-2 {
+        order: 1;
+        padding-bottom: 1em;
+    }
+}

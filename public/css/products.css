@@ -1,0 +1,134 @@
+
+
+#product {
+    padding-top: 6em;
+}
+/* #cesta {
+    height: 81px;
+    width: 72px;
+} */
+/* #cesta img{
+    height: 81px;
+    width: 72px;
+} */
+
+.fill-fit {
+    object-fit: cover;
+}
+
+.btn-success {
+    background-color: transparent !important;
+    border-color: black !important;
+    color: #000 !important;
+}
+
+.btn-success:hover {
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.btn-success.active {
+    border-color: black !important;
+}
+
+.btn-outline-dark:hover {
+    color: #fff !important;
+}
+
+/*hover productos*/
+.contenedor-1 {
+    position: relative;
+    height: 235px;
+}
+.contenedor-1 img {
+    position: absolute;
+    transition: opacity .5s ease-in-out;
+  }
+.contenedor-1 img.top:hover {
+    opacity: 0;
+}
+
+/*end hover productos*/
+.lateral button img {
+    height: 180px;
+    width: 120px;
+}
+.principal img{
+    height: 574.31px;
+    width: 380px;
+}
+.fill {
+    object-fit: fill;
+}
+
+.boton-producto button {
+    border: none;
+    background: none;
+}
+
+.boton-producto .btn-pad {
+    padding-top: .90em;
+}
+
+.ico-xs {
+    font-size: 2.03em;
+    margin: auto;
+}
+.ico-sm {
+    font-size: 1.03em;
+    margin: auto;
+}
+
+#cart {
+    padding-top: 6em;
+}
+.modelos-dropdown {
+    background: #fbfcfc;
+    text-align: center;
+    padding: 0;
+}
+.modelos-dropdown .btn-outline-dark{
+    border: none;
+}
+#cantidad {
+    text-align: center;
+    border: none;
+    width: 1.7em;
+}
+#menos,
+#mas {
+    border: none;
+    background: #fff;
+}
+.sizes label {
+   margin-right: 10px;
+   border-radius: 5px;
+   border-width: 1px;
+}
+
+#productos-cajas #menos,
+#productos-cajas #cantidad,
+#productos-cajas #mas  {
+    margin: auto;
+}
+
+#productos-cajas #cantidad {
+    width: 1.3em;
+}
+
+.size-3 {
+    font-size: 0.8em;
+    line-height: 1.2em !important;
+} @media (max-width:800px) {
+    .size-3 {
+        font-size: 0.6em;
+        text-align: center;
+        line-height: 1em !important;
+    }
+}
+
+.form-outline {
+    border-radius: 70px !important;
+}
+
+
